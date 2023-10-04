@@ -17,7 +17,7 @@ app = Flask(__name__)
 # Defina a rota raiz ("/") e a função que será executada quando a rota for acessada
 @app.route("/")
 def homepage():
-    return "<b1> Atividade 1 git: Marilene Martins Ramos<b/1>"
+    return "<h1> Atividade 1 git:</h1> <p>Marilene Martins Ramos</p>"
     
 
 
